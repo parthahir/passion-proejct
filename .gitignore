@@ -1,4 +1,4 @@
-.bundle
+git .bundle
 .DS_Store
 config/database.yml
 db/*.sqlite3
