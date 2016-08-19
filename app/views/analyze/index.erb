@@ -1,1 +1,18 @@
-<%= @user_response %>
+<div class= "emotions">
+<ul>
+  <% @tones.each do |tone| %>
+    </br><%= "#{tone['tone_name']}: #{tone['score'] * 100}%" %>
+      </br>
+  <% end %>
+
+  <% @tones_2.each do |tone| %>
+      </br><%= "#{tone['tone_name']}: #{tone['score'] * 100}%" %>
+        </br>
+  <% end %>
+
+  <% @tones_3.each do |tone| %>
+      </br><%= "#{tone['tone_name']}: #{tone['score'] * 100}%" %>
+          </br>
+  <% end %>
+</div>
+</ul>
